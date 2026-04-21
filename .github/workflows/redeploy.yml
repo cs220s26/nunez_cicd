@@ -14,5 +14,5 @@ jobs:
           username: ec2-user
           key: ${{ secrets.LABSUSERPEM }}
           script: |
-            cd /nunezi_cicd
+            cd /nunez_cicd
             ./redeploy.sh
